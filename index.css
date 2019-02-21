@@ -9581,4 +9581,15 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fed136;
   margin: 0px auto 0.75rem auto;
 }
+
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.aboutme {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 /*# sourceMappingURL=index.css.map */
