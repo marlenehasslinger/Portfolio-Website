@@ -1,5 +1,6 @@
 $font-size-base: 0.75rem;
 $primary: #fed136;
+$section-color-alterernative: #f7f7f7;
 
 $header-jumbotron-height: 250px;
 $section-heading: 80px;
@@ -76,4 +77,9 @@ $section-heading: 80px;
 .aboutme{
     padding-top: $section-heading;
     padding-bottom: $section-heading;
+
+    .aboutus-image{
+        border-radius: 50%;
+        border: 5px solid $section-color-alterernative;
+    }
 }

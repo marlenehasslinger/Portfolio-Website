@@ -9592,4 +9592,9 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.aboutme .aboutus-image {
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+}
 /*# sourceMappingURL=index.css.map */
