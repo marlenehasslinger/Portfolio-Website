@@ -9593,8 +9593,18 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 80px;
 }
 
-.aboutme .aboutus-image {
+.aboutme .aboutme-image {
   border-radius: 50%;
   border: 5px solid #f7f7f7;
+}
+
+@media (min-width: 768px) {
+  .aboutme .aboutme-list {
+    background: linear-gradient(to right, white 0%, white calc(50% - 1px), #f7f7f7 calc(50% - 1px), #f7f7f7 calc(50% + 1px), white calc(50% + 1px), white 100%);
+  }
+}
+
+.aboutme .aboutme-list .row:last-child {
+  background: white;
 }
 /*# sourceMappingURL=index.css.map */
