@@ -9607,4 +9607,29 @@ a.text-dark:hover, a.text-dark:focus {
 .aboutme .aboutme-list .row:last-child {
   background: white;
 }
+
+.team {
+  background-color: #f7f7f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.team .team-image {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.team .team-social-media {
+  color: black;
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  text-align: center;
+  margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+}
+
+.team .team-social-media:hover {
+  text-decoration: none;
+}
 /*# sourceMappingURL=index.css.map */

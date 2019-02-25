@@ -71,7 +71,7 @@ $section-heading: 80px;
 .portfolio {
     padding-top: $section-heading;
     padding-bottom: $section-heading;
-    background-color: #f7f7f7;
+    background-color: $section-color-alterernative;
 }
 
 .aboutme{
@@ -101,4 +101,30 @@ $section-heading: 80px;
             background: white;
         }
     }
+
+}
+
+.team{
+    background-color: $section-color-alterernative;
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+
+    .team-image{
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+
+    .team-social-media {
+        color: black;
+        font-size: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: block;
+        text-align: center;
+        margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+    
+        &:hover {
+          text-decoration: none;
+        }
+      }
 }
