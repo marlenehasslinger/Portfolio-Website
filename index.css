@@ -9565,51 +9565,8 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 15px;
 }
 
-.services {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.services .service-icon {
-  font-size: 2rem;
-  width: 4rem;
-  height: 4rem;
-  padding-top: 0.25rem;
-  border: 2px solid black;
-  border-radius: 50%;
-  text-align: center;
-  color: black;
-  margin: 0px auto 0.75rem auto;
-}
-
-.portfolio {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-}
-
-.aboutme {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.aboutme .aboutme-image {
-  border-radius: 50%;
-  border: 5px solid #f7f7f7;
-}
-
-@media (min-width: 768px) {
-  .aboutme .aboutme-list {
-    background: linear-gradient(to right, white 0%, white calc(50% - 1px), #f7f7f7 calc(50% - 1px), #f7f7f7 calc(50% + 1px), white calc(50% + 1px), white 100%);
-  }
-}
-
-.aboutme .aboutme-list .row:last-child {
-  background: white;
-}
-
 .team {
-  background-color: #f7f7f7;
+  background-color: white;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -9631,5 +9588,67 @@ a.text-dark:hover, a.text-dark:focus {
 
 .team .team-social-media:hover {
   text-decoration: none;
+}
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.services .service-icon {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 0.25rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  color: black;
+  margin: 0px auto 0.75rem auto;
+}
+
+.aboutme {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+}
+
+.aboutme .aboutme-image {
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+}
+
+@media (min-width: 768px) {
+  .aboutme .aboutme-list {
+    background: linear-gradient(to right, white 0%, white calc(50% - 1px), #f7f7f7 calc(50% - 1px), #f7f7f7 calc(50% + 1px), white calc(50% + 1px), white 100%);
+  }
+}
+
+.aboutme .aboutme-list .row:last-child {
+  background: white;
+}
+
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.contact {
+  color: white;
+  background-color: #222222;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact .contact-message {
+  height: 5rem;
+}
+
+@media (min-width: 576px) {
+  .contact .contact-message {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

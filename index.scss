@@ -51,9 +51,36 @@ $section-heading: 80px;
     }
 }
 
+
+.team{
+    background-color: white;
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+
+    .team-image{
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+
+    .team-social-media {
+        color: black;
+        font-size: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: block;
+        text-align: center;
+        margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+    
+        &:hover {
+          text-decoration: none;
+        }
+      }
+}
+
 .services {
     padding-top: $section-heading;
     padding-bottom: $section-heading;
+    background-color: $section-color-alterernative;
 
         .service-icon{
             font-size: 2rem;
@@ -68,15 +95,11 @@ $section-heading: 80px;
         }
 }
 
-.portfolio {
-    padding-top: $section-heading;
-    padding-bottom: $section-heading;
-    background-color: $section-color-alterernative;
-}
-
 .aboutme{
     padding-top: $section-heading;
     padding-bottom: $section-heading;
+    background-color: white;
+
 
     .aboutme-image{
         border-radius: 50%;
@@ -104,27 +127,24 @@ $section-heading: 80px;
 
 }
 
-.team{
+.portfolio {
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
     background-color: $section-color-alterernative;
+}
+
+
+.contact{
+    color: white;
+    background-color: #222222;
     padding-top: $section-heading;
     padding-bottom: $section-heading;
 
-    .team-image{
-        border-radius: 50%;
-        border: 5px solid white;
-    }
+    .contact-message{
+        height: 5rem;
 
-    .team-social-media {
-        color: black;
-        font-size: 1.5rem;
-        width: 2.5rem;
-        height: 2.5rem;
-        display: block;
-        text-align: center;
-        margin: 0.4rem 0.2rem 0.2rem 0.2rem;
-    
-        &:hover {
-          text-decoration: none;
+        @include media-breakpoint-up(sm){
+            height: 100%;
         }
-      }
+    }
 }
