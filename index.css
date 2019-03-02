@@ -9579,12 +9579,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .team .team-social-media {
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 2.5rem;
   height: 2.5rem;
   display: block;
   text-align: center;
-  margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+  margin: 0.8rem 0.2rem 0.2rem 0.2rem;
 }
 
 .team .team-social-media:hover {
@@ -9655,7 +9655,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer .footer-social-media {
   color: #fed136;
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 2.5rem;
   height: 2.5rem;
   display: block;
