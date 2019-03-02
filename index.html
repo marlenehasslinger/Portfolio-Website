@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titel</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-  </head>
-  <body>
-    <header class="page-header">
-      <div class="container"> 
-        <nav class="navbar navbar-expand navbar-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#team">About</a>
-                <a class="nav-item nav-link" href="#services">Services</a>
-                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-item nav-link" href="#resume">Resume</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
 
-              </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titel</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+  <div id="page">
+    <nav class="mobile-nav list-group">
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#team">About</a>
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#services">Services</a>
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#portfolio">Portfolio</a>
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#resume">Resume</a>
+        <a class="mobile-nav-link list-group-item list-group-item-action" href="#contact">Contact</a>
+    </nav>
+    <header class="page-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button id="toggle-mobile-nav" class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#team">About</a>
+              <a class="nav-item nav-link" href="#services">Services</a>
+              <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-item nav-link" href="#resume">Resume</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+
             </div>
-          </nav>
-          <div class="jumbotron header-jumbotron text-center d-flex flex-column justify-content-center align-items-center">
-              <h1 class="display-5">We develop Websites.</h1>
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-              <p class="lead">
-                <a class="btn btn-primary" href="#" role="button">Learn more</a>
-              </p>
-            </div>
+          </div>
+        </nav>
+        <div class="jumbotron header-jumbotron text-center d-flex flex-column justify-content-center align-items-center">
+          <h1 class="display-5">We develop Websites.</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+          <p class="lead">
+            <a class="btn btn-primary" href="#" role="button">Learn more</a>
+          </p>
         </div>
+      </div>
     </header>
     <section id="team" class="team">
       <div class="container">
@@ -44,10 +56,12 @@
         <div class="img-container col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
           <img class="team-image img-fluid" src="images/Marlene.jpg" alt="Platzhalter 1" />
           <div class="d-flex justify-content-center ">
-            <a class="team-social-media d-flex flex-column justify-content-center" href="https://www.linkedin.com/in/marlenehasslinger/" target="_blank">
+            <a class="team-social-media d-flex flex-column justify-content-center" href="https://www.linkedin.com/in/marlenehasslinger/"
+              target="_blank">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a class="team-social-media d-flex flex-column justify-content-center" href="https://github.com/marlenehasslinger" target="_blank">
+            <a class="team-social-media d-flex flex-column justify-content-center" href="https://github.com/marlenehasslinger"
+              target="_blank">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -59,178 +73,200 @@
         <h3 class="text-center">Services</h3>
         <p class="text-center text-muted font-italic mb-5">We offer amazing services</p>
         <div class="row">
-            <div class="col-sm">
-              <div class="service-icon">
-                <i class="fas fa-shopping-cart"></i>
-              </div>
-              <h4 class="text-center">E-Commerce</h4>
-              <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <div class="col-sm">
+            <div class="service-icon">
+              <i class="fas fa-shopping-cart"></i>
             </div>
-            <div class="col-sm">
-              <div class="service-icon">
-                <i class="fas fa-laptop-code"></i>
-              </div>
-              <h4 class="text-center">Responsive Design</h4>
-              <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-            </div>
-            <div class="col-sm">
-              <div class="service-icon">
-                <i class="fas fa-lock"></i>
-              </div>
-              <h4 class="text-center">Security</h4>
-              <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-            </div>
+            <h4 class="text-center">E-Commerce</h4>
+            <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
           </div>
+          <div class="col-sm">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h4 class="text-center">Responsive Design</h4>
+            <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="col-sm">
+            <div class="service-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h4 class="text-center">Security</h4>
+            <p class="text-center text-muted font-italic">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="resume" class="resume">
-        <div class="container">
-          <h3 class="text-center">Experience</h3>
-          <p class="text-center text-muted font-italic mb-5">This is my story.</p>
+      <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <p class="text-center text-muted font-italic mb-5">This is my story.</p>
         <div class="resume-list">
           <div class="row">
-              <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
-                <img class="img-fluid mb-2 resume-image" src="images/placeholders/aboutus/architektur-gebaude-hochhaus-599459.jpg" alt="Platzhalter 1" />
-              </div>
-              <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
-                <h5 class="h6 text-center text-md-right text-sm-left mb-1">July 2010</h5>
-                <h6 class="text-center text-sm-left">Unsere Anfänge</h6>
-                <p class="text-center text-muted text-sm-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-              </div>
-          </div>     
-            <div class="row">
-              <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
-                  <img class="img-fluid mb-2 aboutme-image mt-3 mt-sm-0" src="images/placeholders/aboutus/berge-canyon-dammerung-965154.jpg " alt="Platzhalter 1" />
-              </div>
-              <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
-                  <h5 class="h6 text-center text-md-right text-sm-right mb-1">July 2010</h5>
-                  <h6 class="text-center text-sm-right">Unsere Anfänge</h6>
-                  <p class="text-center text-muted text-sm-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-              </div>
+            <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
+              <img class="img-fluid mb-2 resume-image" src="images/placeholders/aboutus/architektur-gebaude-hochhaus-599459.jpg"
+                alt="Platzhalter 1" />
             </div>
-            <div class="row">
-              <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
-                <img class="img-fluid mb-2 aboutme-image" src="images/placeholders/aboutus/architektur-gebaude-hochhaus-599459.jpg" alt="Platzhalter 1" />
-              </div>
-              <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
-                <h5 class="h6 text-center text-md-right text-sm-left mb-1">July 2010</h5>
-                <h6 class="text-center text-sm-left">Unsere Anfänge</h6>
-                <p class="text-center text-muted text-sm-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-              </div>
-            </div>    
-            <div class="row">
-              <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
-                  <img class="img-fluid mb-2 aboutme-image mt-3 mt-sm-0" src="images/placeholders/aboutus/berge-canyon-dammerung-965154.jpg " alt="Platzhalter 1" />
-              </div>
-              <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
-                  <h5 class="h6 text-center text-md-right text-sm-right mb-1">July 2010</h5>
-                  <h6 class="text-center text-sm-right">Unsere Anfänge</h6>
-                  <p class="text-center text-muted text-sm-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
-              </div>
+            <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
+              <h5 class="h6 text-center text-md-right text-sm-left mb-1">July 2010</h5>
+              <h6 class="text-center text-sm-left">Unsere Anfänge</h6>
+              <p class="text-center text-muted text-sm-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
             </div>
-          </div>      
-        </div>
-      </section>
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-          <h3 class="text-center">Portfolio</h3>
-          <p class="text-center text-muted font-italic mb-5">Check out our projects</p>
+          </div>
           <div class="row">
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/adventure-daylight-girl-1462014.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/aerial-view-color-daylight-1125278.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/architecture-basilica-buildings-326709.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/adventure-daylight-girl-1462014.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/aerial-view-color-daylight-1125278.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4">
-                  <div class="card mb-4">
-                      <img class="card-img-top" src="images/placeholders/portfolio/architecture-basilica-buildings-326709.jpg" alt="Card image cap">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">Some quick example</h5>
-                        <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
-                      </div>
-                  </div>
+            <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
+              <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/placeholders/aboutus/berge-canyon-dammerung-965154.jpg "
+                alt="Platzhalter 1" />
+            </div>
+            <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
+              <h5 class="h6 text-center text-md-right text-sm-right mb-1">July 2010</h5>
+              <h6 class="text-center text-sm-right">Unsere Anfänge</h6>
+              <p class="text-center text-muted text-sm-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
+              <img class="img-fluid mb-2 resume-image" src="images/placeholders/aboutus/architektur-gebaude-hochhaus-599459.jpg"
+                alt="Platzhalter 1" />
+            </div>
+            <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
+              <h5 class="h6 text-center text-md-right text-sm-left mb-1">July 2010</h5>
+              <h6 class="text-center text-sm-left">Unsere Anfänge</h6>
+              <p class="text-center text-muted text-sm-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
+              <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/placeholders/aboutus/berge-canyon-dammerung-965154.jpg "
+                alt="Platzhalter 1" />
+            </div>
+            <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
+              <h5 class="h6 text-center text-md-right text-sm-right mb-1">July 2010</h5>
+              <h6 class="text-center text-sm-right">Unsere Anfänge</h6>
+              <p class="text-center text-muted text-sm-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h3 class="text-center">Portfolio</h3>
+        <p class="text-center text-muted font-italic mb-5">Check out our projects</p>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/adventure-daylight-girl-1462014.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
               </div>
             </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/aerial-view-color-daylight-1125278.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/architecture-basilica-buildings-326709.jpg"
+                alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/adventure-daylight-girl-1462014.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/aerial-view-color-daylight-1125278.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card mb-4">
+              <img class="card-img-top" src="images/placeholders/portfolio/architecture-basilica-buildings-326709.jpg"
+                alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Some quick example</h5>
+                <h6 class="card-subtitle text-muted font-italic mb-2">Some quick example</h6>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <section id="contact" class="contact">
-        <div class="container">
-          <h3 class="text-center">Contact</h3>
-          <p class="text-center text-muted font-italic">I can't wait to hear from you!</p>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center text-muted font-italic">I can't wait to hear from you!</p>
 
-          <form method="GET" action="#">
-            <div class="row">
-              <div class="col-12 col-sm-6">
-              <input class="form-control mb-3" type="text" name="name" placeholder="Your Name" required/>
-              <input class="form-control mb-3" type="email" name="email" placeholder="Your E-mail" required/>
-              <input class="form-control mb-3 mb-sm-0" type="subject" name="subject" placeholder="Subject" required/>
+        <form method="GET" action="#">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <input class="form-control mb-3" type="text" name="name" placeholder="Your Name" required />
+              <input class="form-control mb-3" type="email" name="email" placeholder="Your E-mail" required />
+              <input class="form-control mb-3 mb-sm-0" type="subject" name="subject" placeholder="Subject" required />
             </div>
-              <div class="col-12 col-sm-6">
-                <textarea class="form-control contact-message" name="message" placeholder="Your Message" required></textarea>
-              </div>
+            <div class="col-12 col-sm-6">
+              <textarea class="form-control contact-message" name="message" placeholder="Your Message" required></textarea>
             </div>
-            <div class="text-center">
-              <button type="submit" class="mt-3 btn btn-primary">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </section>
-      <footer class="footer">
-        <div class="container">
-          <div class="col-12 text-center">
-              <div class="col-12">
-                  <div class="d-flex justify-content-center ">
-                    <a class="footer-social-media d-flex flex-column justify-content-center" href="https://www.linkedin.com/in/marlenehasslinger/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a class="footer-social-media d-flex flex-column justify-content-center" href="https://github.com/marlenehasslinger" target="_blank">
-                      <i class="fab fa-github"></i>
-                    </a>
-              </div>
           </div>
-            <p class="text-muted">Copyright © Marlene Hasslinger</p>
+          <div class="text-center">
+            <button type="submit" class="mt-3 btn btn-primary">Send Message</button>
           </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="col-12 text-center">
+          <div class="col-12">
+            <div class="d-flex justify-content-center ">
+              <a class="footer-social-media d-flex flex-column justify-content-center" href="https://www.linkedin.com/in/marlenehasslinger/"
+                target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a class="footer-social-media d-flex flex-column justify-content-center" href="https://github.com/marlenehasslinger"
+                target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <p class="text-muted">Copyright © Marlene Hasslinger</p>
         </div>
-      </footer>
-  </body>
+      </div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="lib/jquery/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
 </html>

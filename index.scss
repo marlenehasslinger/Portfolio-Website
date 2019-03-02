@@ -1,9 +1,10 @@
-$font-size-base: 0.75rem;
+$font-size-base: 1rem;
 $primary: #fed136;
 $section-color-alterernative: #f7f7f7;
 
-$header-jumbotron-height: 250px;
+$header-jumbotron-height: 200px;
 $section-heading: 80px;
+$page-menu-size: 175px;
 
 
 @import "lib/bootstrap/scss/bootstrap";
@@ -12,6 +13,7 @@ $section-heading: 80px;
     background-image: url("images/header-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
 
 .navbar-dark .navbar-brand {
@@ -164,4 +166,49 @@ $section-heading: 80px;
           text-decoration: none;
         }
       }
+}
+
+/* Page Menu */
+
+body{
+    overflow-x: hidden;
+}
+
+#page {
+    position: relative;
+    left:0;
+    transition: 1s all;
+    transform: translate(0px, 0px);
+
+    &.mobile-nav-opened {
+        transform: translate(-$page-menu-size, 0px);
+    }
+
+    .mobile-nav {
+        position: absolute;
+        right:-$page-menu-size;
+        width: $page-menu-size;
+        top: 0px;
+        bottom: 0px;
+        background-color: $section-color-alterernative;
+
+    }
+
+    .mobile-nav-link{
+        color: black;
+        border-right: 0px solid transparent;
+        border-left: 0px solid transparent;
+        background-color: $section-color-alterernative;
+
+        &:last-child{
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        &:first-child{
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
 }
