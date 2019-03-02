@@ -10,21 +10,35 @@ $page-menu-size: 175px;
 @import "lib/bootstrap/scss/bootstrap";
 
 .page-header{
-    background-image: url("images/header-background.jpg");
+    background-image: url("images/backgroundbanner2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: right center;
+    background-position: 50% 60%;
 }
 
 .navbar-dark .navbar-brand {
     padding-top: 0.2rem;
     color: $primary;
-    font-style: italic;
+}
+
+.navbar-dark .navbar-nav .nav-link.active { 
+    color: $primary 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-logo {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .header-jumbotron {
     background-color: transparent;
-    color: white;
+    color: $primary;
     padding-top: 0px;
     padding-bottom: 15px;
     margin-bottom: 0px;
@@ -48,6 +62,7 @@ $page-menu-size: 175px;
     }
 
     h1 {
+        color: white;
         margin-top: 10px;
         margin-bottom: 15px;
     }
@@ -89,10 +104,10 @@ $page-menu-size: 175px;
             width: 4rem;
             height: 4rem;
             padding-top: 0.25rem;
-            border: 2px solid black;
+            border: 2px solid $primary;
             border-radius: 50%;
             text-align: center;
-            color: black;
+            color: $primary;
             margin: 0px auto 0.75rem auto;
         }
 }
@@ -141,6 +156,7 @@ $page-menu-size: 175px;
     background-color: #222222;
     padding-top: $section-heading;
     padding-bottom: $section-heading;
+    background-image:  url("images//contact-background-compressed.png");
 
     .contact-message{
         height: 5rem;
@@ -177,7 +193,7 @@ body{
 #page {
     position: relative;
     left:0;
-    transition: 1s all;
+    transition: 0.7s all;
     transform: translate(0px, 0px);
 
     &.mobile-nav-opened {
