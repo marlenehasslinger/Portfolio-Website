@@ -1,16 +1,16 @@
-$font-size-base: 1rem;
-$primary: #fed136;
+$font-size-base: 1.1rem;
+$primary: #99D19C;
 $section-color-alterernative: #f7f7f7;
 
 $header-jumbotron-height: 200px;
-$section-heading: 80px;
+$section-heading: 60px;
 $page-menu-size: 175px;
 
 
 @import "lib/bootstrap/scss/bootstrap";
 
 .page-header{
-    background-image: url("images/backgroundbanner2.png");
+    background-image: url("images/backgroundbanner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
@@ -44,6 +44,7 @@ $page-menu-size: 175px;
     margin-bottom: 0px;
     height: $header-jumbotron-height;
 
+
     @include media-breakpoint-up(sm){
         height: $header-jumbotron-height + 50px;
     }
@@ -63,9 +64,15 @@ $page-menu-size: 175px;
 
     h1 {
         color: white;
+        font-size: 2rem;
         margin-top: 10px;
         margin-bottom: 15px;
+
+        @include media-breakpoint-up(sm){
+            font-size: 2.5rem;
+        }
     }
+
 }
 
 
@@ -76,7 +83,7 @@ $page-menu-size: 175px;
 
     .team-image{
         border-radius: 50%;
-        border: 5px solid white;
+        border: 5px solid $section-color-alterernative;
     }
 
     .team-social-media {
@@ -186,8 +193,12 @@ $page-menu-size: 175px;
 
 /* Page Menu */
 
-body{
+html, body{
     overflow-x: hidden;
+}
+
+body{
+    position: relative;
 }
 
 #page {
@@ -201,7 +212,7 @@ body{
     }
 
     .mobile-nav {
-        position: absolute;
+        position: fixed;
         right:-$page-menu-size;
         width: $page-menu-size;
         top: 0px;
