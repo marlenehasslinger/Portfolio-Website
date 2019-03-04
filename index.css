@@ -9550,24 +9550,19 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 15px;
   margin-bottom: 0px;
   height: 200px;
-}
+  /*
+    @include media-breakpoint-up(sm){
+        height: $header-jumbotron-height + 0px;
+    }
 
-@media (min-width: 576px) {
-  .header-jumbotron {
-    height: 250px;
-  }
-}
+    @include media-breakpoint-up(md){
+        height: $header-jumbotron-height + 0px;
+    }
 
-@media (min-width: 768px) {
-  .header-jumbotron {
-    height: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  .header-jumbotron {
-    height: 350px;
-  }
+    @include media-breakpoint-up(lg){
+        height: $header-jumbotron-height + 0px;
+    }
+    */
 }
 
 .header-jumbotron h2 {
@@ -9738,4 +9733,27 @@ body {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .item {
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+/* responsive media queries */
 /*# sourceMappingURL=index.css.map */
