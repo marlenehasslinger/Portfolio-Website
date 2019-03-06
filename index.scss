@@ -124,6 +124,10 @@ $page-menu-size: 175px;
     padding-bottom: $section-heading;
     background-color: white;
 
+    .h6{
+        color: $primary;
+    }
+
 
     .resume-image{
         border-radius: 50%;
