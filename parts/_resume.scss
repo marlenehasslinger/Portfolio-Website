@@ -1,0 +1,33 @@
+.resume{
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+    background-color: white;
+
+    .h6{
+        color: $primary;
+    }
+
+    .resume-image{
+        border-radius: 50%;
+        border: 5px solid $section-color-alterernative;
+    }
+
+    .resume-list{
+        @include media-breakpoint-up(md){
+            background: linear-gradient(
+                to right,
+                white 0%,
+                white calc(50% - 1px),
+                $section-color-alterernative calc(50% - 1px),
+                $section-color-alterernative calc(50% + 1px),
+                white calc(50% + 1px),
+                white 100%
+            );
+        }
+
+        .row:last-child{
+            background: white;
+        }
+    }
+
+}

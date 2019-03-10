@@ -1,0 +1,15 @@
+.portfolio {
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+    background-color: $section-color-alterernative;
+
+    .card{
+        cursor: pointer;
+
+        .card-body{
+            height: 140px;
+            border-top: 2px solid $section-color-alterernative;
+
+        }
+    }
+}

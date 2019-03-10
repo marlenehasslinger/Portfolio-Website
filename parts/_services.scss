@@ -1,0 +1,17 @@
+.services {
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+    background-color: $section-color-alterernative;
+
+        .service-icon{
+            font-size: 2rem;
+            width: 4rem;
+            height: 4rem;
+            padding-top: 0.25rem;
+//            border: 2px solid $primary;
+            border-radius: 50%;
+            text-align: center;
+            color: $primary;
+            margin: 0px auto 0.75rem auto;
+        }
+}

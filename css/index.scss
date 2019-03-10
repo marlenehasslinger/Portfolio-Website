@@ -1,0 +1,93 @@
+$font-size-base: 1.1rem;
+$primary: #99D19C;
+$section-color-alterernative: #f7f7f7;
+
+$header-jumbotron-height: 200px;
+$section-heading: 60px;
+$page-menu-size: 175px;
+
+@import "../lib/bootstrap/scss/bootstrap";
+@import "../parts/header";
+@import "../parts/team";
+@import "../parts/services";
+@import "../parts/resume";
+@import "../parts/portfolio";
+@import "../parts/contact";
+@import "../parts/footer";
+
+/* Page Menu */
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+}
+
+#page {
+    position: relative;
+    left:0;
+    transition: 0.7s all;
+    transform: translate(0px, 0px);
+
+    &.mobile-nav-opened {
+        transform: translate(-$page-menu-size, 0px);
+    }
+
+    .mobile-nav {
+        position: fixed;
+        right:-$page-menu-size;
+        width: $page-menu-size;
+        top: 0px;
+        bottom: 0px;
+        background-color: $section-color-alterernative;
+
+    }
+
+    .mobile-nav-link{
+        color: black;
+        border-right: 0px solid transparent;
+        border-left: 0px solid transparent;
+        background-color: $section-color-alterernative;
+
+        &:last-child{
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        &:first-child{
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
+}
+
+
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}

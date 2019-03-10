@@ -1,0 +1,15 @@
+.contact{
+    color: white;
+    background-color: #222222;
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+    background-image:  url("images/contact-background-compressed.png");
+
+    .contact-message{
+        height: 5rem;
+
+        @include media-breakpoint-up(sm){
+            height: 100%;
+        }
+    }
+}

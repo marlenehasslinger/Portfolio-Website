@@ -1,0 +1,16 @@
+.footer {
+
+    .footer-social-media {
+        color: $primary;
+        font-size: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: block;
+        text-align: center;
+        margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+    
+        &:hover {
+          text-decoration: none;
+        }
+      }
+}
