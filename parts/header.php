@@ -1,10 +1,23 @@
+<?php
+  $navigation = array(
+    "#team" => "About",
+    "#services" => "Interests",
+    "#portfolio" => "Portfolio",
+    "#resume" => "Resume",
+    "#contact" => "Contact"
+  );
+?>
+
 <nav class="mobile-nav list-group">
-      <a class="mobile-nav-link list-group-item list-group-item-action" href="#team">About</a>
-      <a class="mobile-nav-link list-group-item list-group-item-action" href="#services">Interests</a>
-      <a class="mobile-nav-link list-group-item list-group-item-action" href="#portfolio">Portfolio</a>
-      <a class="mobile-nav-link list-group-item list-group-item-action" href="#resume">Resume</a>
-      <a class="mobile-nav-link list-group-item list-group-item-action" href="#contact">Contact</a>
-    </nav>
+  <?php foreach($navigation AS $key => $value): ?>
+    <a class="mobile-nav-link list-group-item list-group-item-action" href="<?php echo e($key);?>">
+      <?php echo e($value);?>
+      <?php if($key=="#team"): ?>
+        <span class="sr-only">(current)</span>
+      <?php endif;?>
+    </a>
+  <?php endforeach;?>
+</nav>
     <header class="page-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -16,11 +29,14 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#team">About <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#services">Interests</a>
-              <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-              <a class="nav-item nav-link" href="#resume">Resume</a>
-              <a class="nav-item nav-link" href="#contact">Contact</a>
+              <?php foreach($navigation AS $key => $value): ?>
+                <a class="nav-item nav-link" href="<?php echo e($key);?>">
+                  <?php echo e($value);?>
+                  <?php if($key=="#team"): ?>
+                    <span class="sr-only">(current)</span>
+                  <?php endif;?>
+                </a>
+              <?php endforeach;?>
             </div>
           </div>
         </nav>

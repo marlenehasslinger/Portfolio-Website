@@ -9529,10 +9529,6 @@ a.text-dark:hover, a.text-dark:focus {
   color: #99D19C;
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #99D19C;
-}
-
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }

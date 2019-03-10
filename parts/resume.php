@@ -76,7 +76,6 @@
             <h5 class="h6 text-center text-sm-left mb-1">October '15 - today</h5>
             <h6 class="text-center text-sm-left">Media University, Stuttgart (Germany)</h6>
             <p class="text-center text-muted text-sm-left">Mobile Media Bachelor</p>
-            <p class="text-center text-muted text-sm-left">Applied computer science for:</p>
             <ul>
               <li>Web Development</li>
               <li>App Development</li>
