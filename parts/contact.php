@@ -3,7 +3,16 @@
     <h3 class="text-center">Contact</h3>
     <p class="text-center text-muted font-italic">I can't wait to hear from you!</p>
 
-    <form method="GET" action="#">
+    <?php if(isset($_GET['contact']) && $_GET['contact'] == 'success'): ?>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Succesfully sent!</strong> I'll get back to you soon.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <?php endif; ?>
+
+    <form method="POST" action="contact.php">
       <div class="row">
         <div class="col-12 col-sm-6">
           <input class="form-control mb-3" type="text" name="name" placeholder="Your Name" required />
