@@ -1,6 +1,6 @@
 <?php
-require("inc/functions.inc.php");
-require("inc/db.inc.php");
+require("shared/inc/functions.inc.php");
+require("shared/inc/db.inc.php");
 
 // echo("<pre>");
 // print_r($_POST);

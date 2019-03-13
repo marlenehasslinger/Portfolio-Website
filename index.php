@@ -1,4 +1,4 @@
-<?php require("inc/functions.inc.php"); ?>
+<?php require("shared/inc/functions.inc.php"); ?>
 <!DOCTYPE html>
 <html lang="de">
 <head>
