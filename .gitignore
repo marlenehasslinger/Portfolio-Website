@@ -1,1 +1,2 @@
-inc/db.inc.php
+shared/inc/db.inc.php
+admin/.htpasswd

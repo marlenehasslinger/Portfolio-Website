@@ -21,6 +21,7 @@
     <header class="page-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Golden</a>
           <a class="navbar-brand navbar-icon" href="#">
             <!--<img class="navbar-logo" src="images/mhwebsitelogoblack.png">-->
           </a>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /Applications/XAMPP/xamppfiles/htdocs/portfolio/admin/.htpasswd
+Require valid-user
