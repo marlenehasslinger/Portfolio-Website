@@ -7,10 +7,10 @@ require("shared/inc/db.inc.php");
 // echo "</pre>";
 
 $isFormSubmitted = (
-    !empty($_POST['name']) > 0 &&
-    !empty($_POST['email']) > 0 &&
-    !empty($_POST['subject']) > 0 &&
-    !empty($_POST['message']) > 0
+    !empty($_POST['name']) &&
+    !empty($_POST['email']) &&
+    !empty($_POST['subject']) &&
+    !empty($_POST['message'])
 );
 
 if ($isFormSubmitted )  {
