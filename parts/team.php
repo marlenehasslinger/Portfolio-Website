@@ -1,6 +1,6 @@
     <section id="team" class="team">
       <div class="container">
-        <h3 class="text-center mb-5">About me</h3>
+        <!--<h3 class="text-center mb-5">About me</h3>-->
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="img-container col-8 offset-2 col-sm-8 offset-sm-2 col-md-10 offset-md-2 col-lg-8 offset-md-2">
@@ -18,12 +18,15 @@
             </div>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            <p class="text-center mt-4 mt-md-0">Hi, I'm Marlene. <br><br> I'm a student at Media University in
+            <p class="text-center mt-4 mt-md-0"><span class="h5">Hi, I'm Marlene.</span> <br><br> I'm a student at Media University in
               Stuttgart. At
               the moment I'm located in
               Manhattan, NY to work as a Web and Mobile Specialist at Pace University's Seidenberg School of Computer
               Science and Information Systems.</p>
           </div>
+        </div>
+        <div class="row mt-0 mt-md-5">
+          <a href="#services" class="arrow bounce"></a>
         </div>
       </div>
   </section>
