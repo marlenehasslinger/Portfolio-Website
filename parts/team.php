@@ -25,7 +25,7 @@
               Science and Information Systems.</p>
           </div>
         </div>
-        <div class="row mt-0 mt-md-5">
+        <div class="row mt-0 mt-md-5 d-none d-sm-block mb-sm-4 mt-sm-3">
           <a href="#services" class="arrow bounce"></a>
         </div>
       </div>

@@ -9605,7 +9605,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .team .team-social-media {
-  color: black;
+  color: #99D19C;
   font-size: 2rem;
   width: 2.5rem;
   height: 2.5rem;
@@ -9760,6 +9760,10 @@ a.text-dark:hover, a.text-dark:focus {
 /* Page Menu */
 html, body {
   overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

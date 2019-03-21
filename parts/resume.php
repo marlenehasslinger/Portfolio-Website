@@ -1,7 +1,7 @@
 <section id="resume" class="resume">
     <div class="container">
       <h3 class="text-center">Experience</h3>
-      <p class="text-center text-muted font-italic mb-5">This is my story.</p>
+      <p class="text-center text-muted font-italic mb-5">This is my story</p>
       <div class="resume-list">
         <div class="row mb-4">
           <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">

@@ -1,7 +1,7 @@
 <section id="services" class="services">
     <div class="container">
       <h3 class="text-center">Interests</h3>
-      <p class="text-center text-muted font-italic mb-5">What interests and drives me</p>
+      <p class="text-center text-muted font-italic mb-5">What interests me</p>
       <div class="row">
         <div class="col-sm col-md-6 mb-3 mb-sm-5">
           <div class="service-icon">

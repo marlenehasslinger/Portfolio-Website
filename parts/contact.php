@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-12 col-sm-6">
           <input class="form-control mb-3" type="text" name="name" placeholder="Your Name" required />
-          <input class="form-control mb-3" type="email" name="email" placeholder="Your E-mail" required />
+          <input class="form-control mb-3" type="email" name="email" placeholder="Your Email" required />
           <input class="form-control mb-3 mb-sm-0" type="subject" name="subject" placeholder="Subject" required />
         </div>
         <div class="col-12 col-sm-6">
