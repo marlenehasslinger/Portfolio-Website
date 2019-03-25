@@ -2,7 +2,7 @@
       <div class="container">
         <!--<h3 class="text-center mb-5">About me</h3>-->
         <div class="row">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 mt-lg-4 mt-md-5">
             <div class="img-container col-8 offset-2 col-sm-8 offset-sm-2 col-md-10 offset-md-2 col-lg-8 offset-md-2">
               <img class="team-image img-fluid" src="images/Marlene.jpg" alt="Marlene Hasslinger" />
               <div class="d-flex justify-content-center ">

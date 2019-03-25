@@ -18,7 +18,7 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
       <h3 class="text-center">Portfolio</h3>
-      <p class="text-center text-muted font-italic mb-5">Take a look at my projects</p>
+      <p class="text-center text-muted font-italic mb-5">Take a look at the projects I've worked on</p>
       <div class="row">
         <div class="col-md-12 text-center">
           <div id="filters" class="btn-group mb-5" role="group" aria-label="Basic example">
@@ -102,10 +102,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p class="text-center">Mit Hilfe der Mobilen App „ForeignBuddy“ können im Umkreis passende
-                Sprachtandems für Language Exchanges gefunden werden. Auf Basis von Nutzerangaben (z.B. gewünschte
-                Sprache, Muttersprache, Alter, Geschlecht, Location und Interessen) werden dem Benutzer optimale
-                „Matches“ in der Umgebung vorgeschlagen. //ToDo UX</p>
+              <p>The mobile app „ForeignBuddy“ helps students to find suitable language partnerships in a defined area. User inputs such as a desired language a user wants to learn, native language, age, gender, location and interests are used to find a perfect match.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-user mr-2"></i>Marlene Hasslinger, Marc Julian Fleck</li>
@@ -139,7 +136,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>We compared to applications that are commonly used for screen capturing. //ToDo</p>
+              <p>We compared two applications that are used for screen capturing. We focused on a few common use cases: screen recording, audio recordings, merging several sequences, exporting and the generation of subtitles. We tested the use cases on sixteen students and evaluated the results under consideration of efficiency and effectivity. Also, our test users filled out a System Usability Scale (SUS) form to provide us with a better idea about how the users felt while going through the different use cases. For more information watch our information video.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-user mr-2"></i>Marlene Hasslinger, Marc Julian Fleck</li>
