@@ -1,10 +1,14 @@
 
 .page-header{
-    background-image: url("../images/navbackrgound.jpg");
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
     background-position: 50% 60%;
+
+    a {
+        font-weight: normal;
+    }
 }
 
 .navbar-dark .navbar-brand {

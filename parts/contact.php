@@ -1,7 +1,7 @@
 <section id="contact" class="contact">
   <div class="container">
     <h3 class="text-center">Contact</h3>
-    <p class="text-center text-muted font-italic">I can't wait to hear from you!</p>
+    <p class="text-center text-muted">I'm excited to hear from you!</p>
 
     <?php if(isset($_GET['contact']) && $_GET['contact'] == 'success'): ?>
       <div class="alert alert-success alert-dismissible fade show" role="alert">

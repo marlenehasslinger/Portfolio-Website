@@ -1,0 +1,14 @@
+.achievements {
+    padding-top: $section-heading;
+    padding-bottom: $section-heading;
+    background-color: $section-color-alterernative;
+
+    .h6{
+        color: $primary;
+    }
+
+    .achievements-image{
+        border-radius: 50%;
+        border: 5px solid $section-color-alterernative;
+    }
+}

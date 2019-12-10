@@ -1,89 +1,123 @@
 <section id="resume" class="resume">
     <div class="container">
-      <h3 class="text-center">Experience</h3>
-      <p class="text-center text-muted font-italic mb-5">This is my story</p>
+      <h3 class="text-center">Resume</h3>
+      <!-- <p class="text-center text-muted font-italic mb-4">What I've done the past years</p> -->
+      <h4 class="h5 text-center mb-4">Professional Experience</h4>
       <div class="resume-list">
-        <div class="row mb-4">
+      <div class="row mb-4">
           <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
             <img class="img-fluid mb-2 resume-image" src="images/resume/seidenberg.png"
               alt="Platzhalter 1" />
           </div>
           <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
-            <h5 class="h6 text-center text-sm-left mb-1">February '19 - today</h5>
-            <h6 class="text-center text-sm-left">Seidenberg School CSIS, NYC (US)</h6>
-            <p class="text-center text-muted text-sm-left">Web & Mobile Design Specialist</p>
+            <p class="text-center text-sm-left mb-1">February '19 - today</p>
+            <h6 class="text-center text-sm-left">Pace University, Seidenberg School of Computer Science & Information Systems</h6>
+            <p class="text-center text-sm-left mb-1">New York, NY</p>
+            <p class="text-center text-muted text-sm-left">Graduate Assistant | Web & Mobile Design Specialist</p>
             <ul>
-              <li>Frontend Developer for Seidenberg Creative Lab</li>
-              <li>Consultant for NYC Design Factory</li>
+              <li>Developed a mobile app using JavaScript and React Native to allow a museum to digitally gamify the experience of visiting its attractions by employing location tracking, thereby improving the user experience and increasing museum popularity</li>
+              <li>Coached undergraduate and graduate students working on innovative software projects with industry partners, including prototyping, UI design, wire framing, and using HTML, CSS, JavaScript, and React 
             </ul>
+            <p>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
+              <span class="badge badge-primary">JavaScript</span>
+              <span class="badge badge-primary">React</span>
+              <span class="badge badge-primary">React Native</span>
+              <span class="badge badge-primary">Bootstrap</span>
+              <span class="badge badge-primary">Design Thinking</span>
+              <span class="badge badge-primary">Product Design</span>
+            </p>
           </div>
         </div>
+
         <div class="row mb-4">
-            <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
-                <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/resume/pace.png"
-                  alt="Platzhalter 1" />
-              </div>
+          <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-md-1">
+              <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/resume/onwerk.png"
+                alt="Onwerk Logo" />
+          </div>
           <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
-            <h5 class="h6 text-center text-sm-left text-md-right mb-1">September '18 - December '18</h5>
-            <h6 class="text-center text-sm-left text-md-right">Pace University, NYC (US)</h6>
-            <p class="text-center text-sm-left text-md-right text-muted">Computer Science </p>
+            <p class="text-center text-sm-left mb-1">August '17 - February '18</p>
+            <h6 class="text-center text-sm-left">Onwerk GmbH</h6>
+            <p class="text-center text-sm-left mb-1">Mannheim (Germany)</p>
+            <p class="text-center text-sm-left text-md-left text-muted">Frontend Developer Intern</p>
             <ul>
-              <li>Exchange Semester</li>
-              <li>Mobile App Development</li>
-              <li>Web Design</li>
-              <li>Mobile Device Forensics</li>
+              <li>Analyzed existing software and identified user requirements to design a user-friendly prototype using Balsamiq for a time tracking application and conducted user testing to ensure that the final product will be intuitive</li>
+              <li>Developed a front-end for the web application using HTML, CSS, JavaScript, Bootstrap, MySQL, and Angular 4 to create a time tracking solution that is platform independent</li>
             </ul>
+            <p>
+              <span class="badge badge-primary">Balsamiq</span>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
+              <span class="badge badge-primary">JavaScript</span>
+              <span class="badge badge-primary">Angular 4</span>
+              <span class="badge badge-primary">Bootstrap</span>
+              <span class="badge badge-primary">MySQL</span>
+            </p>
           </div>
         </div>
-        <div class="row mb-4">
+        
+        <div class="row mb-5">
           <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
-            <img class="img-fluid mb-2 resume-image" src="images/resume/onwerk.png"
+            <img class="img-fluid mb-2 resume-image" src="images/resume/bearingpoint.png"
               alt="Platzhalter 1" />
           </div>
           <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
-            <h5 class="h6 text-center text-sm-left mb-1">August '17 - February '18</h5>
-            <h6 class="text-center text-sm-left">Onwerk GmbH, Mannheim (Germany)</h6>
-            <p class="text-center text-muted text-sm-left">Frontend Developer Intern</p>
+            <p class="text-center text-sm-left mb-1">August - September '16</p>
+            <h6 class="text-center text-sm-left">BearingPoint</h6>
+            <p class="text-center text-sm-left mb-1">Munich (Germany)</p>
+            <p class="text-center text-muted text-sm-left">Technical Business Analyst Intern</p>
             <ul>
-              <li>Systems analysis, conception and design</li>
-              <li>Prototyping, UI design, UX Design</li>
-              <li>Implementation of a web application frontend (Angular 4, HTML5, Javascript, Bootstrap)</li>
+              <li>Collaborated with an international software developer team of five to implement a front end for a web application using HTML, CSS, and JavaScript to provide a supply chain management system for a Munich based automotive company</li>
+              <li>Documented user requirements through user stories</li>
+              <li>Tested multiple versions of software to ensure a flawless user experience</li>
             </ul>
+              <span class="badge badge-primary">Agile Software Development</span>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
+              <span class="badge badge-primary">JavaScript</span>
           </div>
         </div>
+        </div>
+        <h4 class="h5 text-center mb-4">Education</h4>
+        <div class="resume-list">
         <div class="row mb-4">
-          <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-sm-2 order-md-1">
-            <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/resume/bearingpoint.png"
-              alt="Platzhalter 1" />
-          </div>
-          <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
-            <h5 class="h6 text-center text-sm-left text-md-right mb-1">August '16 - September' 2016</h5>
-            <h6 class="text-center text-sm-left text-md-right">BearingPoint</h6>
-            <p class="text-center text-sm-left text-md-right text-muted">Technical Business Analyst Intern</p>
-            <ul>
-              <li>International, agile software development project</li>
-              <li>UI Testing</li>
-              <li>Documentation of Requirements for a Supply Chain Management prototype in SAPUI5 Hana</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
-            <img class="img-fluid mb-2 resume-image" src="images/resume/hdm.png"
+            <img class="img-fluid mb-2 resume-image" src="images/resume/pace.png"
               alt="Platzhalter 1" />
           </div>
           <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1">
-            <h5 class="h6 text-center text-sm-left mb-1">October '15 - today</h5>
-            <h6 class="text-center text-sm-left">Media University, Stuttgart (Germany)</h6>
-            <p class="text-center text-muted text-sm-left">Mobile Media Bachelor</p>
+            <p class="text-center text-sm-left mb-1">September '19 - today</p>
+            <h6 class="text-center text-sm-left">Pace University, Seidenberg School of Computer Science & Information Systems</h6>
+            <p class="text-center text-sm-left mb-1">New York, NY</p>
+            <p class="text-center text-muted text-sm-left">Computer Science (Master of Science)</p>
+            <ul>
+              <li>Web and Mobile Development</li>
+              <li>Algorithms</li>
+              <li>Cloud Computing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-md-1">
+              <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/resume/hdm.png"
+                alt="Seidenberg Logo" />
+          </div>
+          <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
+            <p class="text-center text-sm-left text-md-left mb-1">October '15 - August '19</p>
+            <h6 class="text-center text-sm-left">Hochschule der Medien</h6>
+            <p class="text-center text-sm-left mb-1">Stuttgart (Germany)</p>
+            <p class="text-center text-sm-left text-md-left text-muted">Mobile Medien (Bachelor of Science)</p>
             <ul>
               <li>Web Development</li>
               <li>App Development</li>
-              <li>Human Computer Interaction | UX / UI Design</li>
+              <li>Human Computer Interaction | UI/UX Design</li>
               <li>Business, Content, Interdisciplinary Studies</li>
             </ul>
           </div>
         </div>
+
       </div>
     </div>
   </section>

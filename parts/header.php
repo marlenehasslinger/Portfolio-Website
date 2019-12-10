@@ -3,7 +3,7 @@
     "#team" => "About",
     "#services" => "Interests",
     "#portfolio" => "Portfolio",
-    "#resume" => "Experience",
+    "#resume" => "Resume",
     "#contact" => "Contact"
   );
 ?>

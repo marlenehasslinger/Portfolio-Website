@@ -1,6 +1,6 @@
 $font-size-base: 1.1rem;
 $primary: black;
-$secundary: #fed136;
+$secundary: #57656f;
 
 $section-color-alterernative: #f7f7f7;
 
@@ -12,12 +12,13 @@ $page-menu-size: 175px;
 @import "../parts/header";
 @import "../parts/team";
 @import "../parts/services";
+@import "../parts/achievements";
 @import "../parts/resume";
 @import "../parts/portfolio";
 @import "../parts/contact";
 @import "../parts/footer";
 
-/* Page Menu */
+/* Page Menu  */ 
 
 html, body{
     overflow-x: hidden;
@@ -29,6 +30,7 @@ html {
 
 body{
     position: relative;
+    font-family: 'raleway';
 }
 
 #page {
@@ -72,10 +74,21 @@ body{
 
 .btn-primary {
     background-color: $secundary;
-    color: black;
+    color: white;
     border-color: transparent;
 }
 
+a {
+    font-weight: bold;
+}
+
+#laparprotoimage{
+    cursor: pointer;
+}
+
+li > p {
+    margin-bottom: 0;
+}
 
 /* Isotope Transitions
 ------------------------------- */
@@ -103,3 +116,4 @@ body{
        -o-transition-property:         top, left, opacity;
           transition-property:         transform, opacity;
 }
+

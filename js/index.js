@@ -1,3 +1,26 @@
+/* links for portfolio */
+/*
+$("#portfolio_nickileach").click(function () {
+   // window.open("https://nickileach.org");
+    //return false;
+});
+
+$("#portfolio_prism").click(function () {
+    window.open("https://prismguitars.com");
+    return false;
+});
+
+$("#portfolio_hero").click(function () {
+    window.open("images/ComparisonOfPopularJavaScriptFrameworks.pdf");
+    return false;
+});
+
+$("#portfolio_chinatown").click(function () {
+    window.open("http://chinatown.nyc");
+    return false;
+});
+*/
+
 jQuery(document).ready(function($) {
     $("#toggle-mobile-nav").click(function() {
         $("#page").toggleClass("mobile-nav-opened");
@@ -37,26 +60,4 @@ $("#page").click(function(e) {
     }
 
     $("#page").removeClass("mobile-nav-opened")
-});
-
-
-    /* links for portfolio */
-$("#portfolio_nickileach").click(function () {
-    window.open("https://nickileach.org");
-    return false;
-});
-
-$("#portfolio_prism").click(function () {
-    window.open("https://prismguitars.com");
-    return false;
-});
-
-$("#portfolio_hero").click(function () {
-    window.open("https://hero-skulpturen.com");
-    return false;
-});
-
-$("#portfolio_chinatown").click(function () {
-    window.open("http://chinatown.nyc");
-    return false;
 });

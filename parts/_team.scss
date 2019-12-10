@@ -24,7 +24,7 @@
     }
 
     .team-social-media {
-        color: $primary;
+        color: black;
         font-size: 2rem;
         width: 2.5rem;
         height: 2.5rem;
@@ -35,7 +35,16 @@
         &:hover {
           text-decoration: none;
         }
+
+        .fab{
+          color: black;
+        }
       }
+
+      b{
+        color: #32a890;
+      }
+
 }
 
 
@@ -69,4 +78,8 @@
     60% {
       transform: translateY(-15px);
     }
+  }
+
+  .highlighted{
+    color: $secundary;
   }

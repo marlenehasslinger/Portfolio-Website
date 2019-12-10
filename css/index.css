@@ -9517,11 +9517,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-header {
-  background-image: url("../images/navbackrgound.jpg");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
   background-position: 50% 60%;
+}
+
+.page-header a {
+  font-weight: normal;
 }
 
 .navbar-dark .navbar-brand {
@@ -9618,6 +9622,14 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
 }
 
+.team .team-social-media .fab {
+  color: black;
+}
+
+.team b {
+  color: #32a890;
+}
+
 .arrow {
   display: block;
   position: relative;
@@ -9668,6 +9680,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.highlighted {
+  color: #57656f;
+}
+
 .services {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -9681,8 +9697,23 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 0.25rem;
   border-radius: 50%;
   text-align: center;
-  color: #fed136;
+  color: #57656f;
   margin: 0px auto 0.75rem auto;
+}
+
+.achievements {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f7f7f7;
+}
+
+.achievements .h6 {
+  color: black;
+}
+
+.achievements .achievements-image {
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
 }
 
 .resume {
@@ -9713,7 +9744,7 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 .portfolio .card {
@@ -9757,7 +9788,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
 }
 
-/* Page Menu */
+/* Page Menu  */
 html, body {
   overflow-x: hidden;
 }
@@ -9768,6 +9799,7 @@ html {
 
 body {
   position: relative;
+  font-family: 'raleway';
 }
 
 #page {
@@ -9811,9 +9843,21 @@ body {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  color: black;
+  background-color: #57656f;
+  color: white;
   border-color: transparent;
+}
+
+a {
+  font-weight: bold;
+}
+
+#laparprotoimage {
+  cursor: pointer;
+}
+
+li > p {
+  margin-bottom: 0;
 }
 
 /* Isotope Transitions
