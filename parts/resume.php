@@ -13,10 +13,11 @@
             <p class="text-center text-sm-left mb-1">February '19 - today</p>
             <h6 class="text-center text-sm-left">Pace University, Seidenberg School of Computer Science & Information Systems</h6>
             <p class="text-center text-sm-left mb-1">New York, NY</p>
-            <p class="text-center text-muted text-sm-left">Graduate Assistant | Web & Mobile Design Specialist</p>
+            <p class="text-center text-muted text-sm-left">Graduate Assistant | Front-end Developer</p>
             <ul>
-              <li>Developed a mobile app using JavaScript and React Native to allow a museum to digitally gamify the experience of visiting its attractions by employing location tracking, thereby improving the user experience and increasing museum popularity</li>
-              <li>Coached undergraduate and graduate students working on innovative software projects with industry partners, including prototyping, UI design, wire framing, and using HTML, CSS, JavaScript, and React 
+              <li>Developed a mobile web application using JavaScript and React Native to allow a museum to digitally gamify the experience of visiting its attractions by employing location tracking, thereby improving the user experience and increasing museum popularity</li>
+              <li>Collaborate with a Finland-based team to gather requirements and design a web application for a warehouse truck manufacturer that will assist warehouse drivers with identification, time tracking, collision detection, and more</li>
+              <li>Implement the application using Angular, Ionic, HTML, TypeScript, and CSS and connect it to a Firebase database containing truck information, time logs, and collision data, enabling managers to analyze and optimize processes</li>
             </ul>
             <p>
               <span class="badge badge-primary">HTML</span>
@@ -24,7 +25,9 @@
               <span class="badge badge-primary">JavaScript</span>
               <span class="badge badge-primary">React</span>
               <span class="badge badge-primary">React Native</span>
+              <span class="badge badge-primary">Angular</span>
               <span class="badge badge-primary">Bootstrap</span>
+              <span class="badge badge-primary">Firebase</span>
               <span class="badge badge-primary">Design Thinking</span>
               <span class="badge badge-primary">Product Design</span>
             </p>
@@ -43,7 +46,7 @@
             <p class="text-center text-sm-left text-md-left text-muted">Frontend Developer Intern</p>
             <ul>
               <li>Analyzed existing software and identified user requirements to design a user-friendly prototype using Balsamiq for a time tracking application and conducted user testing to ensure that the final product will be intuitive</li>
-              <li>Developed a front-end for the web application using HTML, CSS, JavaScript, Bootstrap, MySQL, and Angular 4 to create a time tracking solution that is platform independent</li>
+              <li>Developed a responsive front-end for the web application using HTML, CSS, JavaScript, Bootstrap, MySQL, JSON, and Angular 4 to create a time tracking solution that is platform independent and easy to use</li>
             </ul>
             <p>
               <span class="badge badge-primary">Balsamiq</span>
@@ -52,7 +55,7 @@
               <span class="badge badge-primary">JavaScript</span>
               <span class="badge badge-primary">Angular 4</span>
               <span class="badge badge-primary">Bootstrap</span>
-              <span class="badge badge-primary">MySQL</span>
+              <span class="badge badge-primary">SQL</span>
             </p>
           </div>
         </div>
@@ -68,14 +71,16 @@
             <p class="text-center text-sm-left mb-1">Munich (Germany)</p>
             <p class="text-center text-muted text-sm-left">Technical Business Analyst Intern</p>
             <ul>
-              <li>Collaborated with an international software developer team of five to implement a front end for a web application using HTML, CSS, and JavaScript to provide a supply chain management system for a Munich based automotive company</li>
-              <li>Documented user requirements through user stories</li>
-              <li>Tested multiple versions of software to ensure a flawless user experience</li>
+              <li>Collaborated with an international and agile software development team of five to implement a web front-end using HTML, CSS, and JavaScript to provide a supply chain management system for a Munich based automotive company</li>
+              <li>Documented user requirements through user stories to ensure that the software meets customer expectations</li>
             </ul>
               <span class="badge badge-primary">Agile Software Development</span>
               <span class="badge badge-primary">HTML</span>
               <span class="badge badge-primary">CSS</span>
               <span class="badge badge-primary">JavaScript</span>
+              <span class="badge badge-primary">User Stories</span>
+              <span class="badge badge-primary">Scrum</span>
+
           </div>
         </div>
         </div>
@@ -91,11 +96,11 @@
             <h6 class="text-center text-sm-left">Pace University, Seidenberg School of Computer Science & Information Systems</h6>
             <p class="text-center text-sm-left mb-1">New York, NY</p>
             <p class="text-center text-muted text-sm-left">Computer Science (Master of Science)</p>
-            <ul>
-              <li>Web and Mobile Development</li>
-              <li>Algorithms</li>
-              <li>Cloud Computing</li>
-            </ul>
+            <span class="badge badge-primary">Web Development</span>
+            <span class="badge badge-primary">Mobile Development</span>
+            <span class="badge badge-primary">Algorithm's Theory</span>
+            <span class="badge badge-primary">Internet Computing</span>
+            <span class="badge badge-primary">Product Development</span>
           </div>
         </div>
 
@@ -108,13 +113,21 @@
             <p class="text-center text-sm-left text-md-left mb-1">October '15 - August '19</p>
             <h6 class="text-center text-sm-left">Hochschule der Medien</h6>
             <p class="text-center text-sm-left mb-1">Stuttgart (Germany)</p>
-            <p class="text-center text-sm-left text-md-left text-muted">Mobile Medien (Bachelor of Science)</p>
+            <p class="text-center text-sm-left text-md-left text-muted">Computer Science and Mobile Media (Bachelor of Science)</p>
             <ul>
               <li>Web Development</li>
               <li>App Development</li>
               <li>Human Computer Interaction | UI/UX Design</li>
               <li>Business, Content, Interdisciplinary Studies</li>
             </ul>
+            <span class="badge badge-primary">Web Development</span>
+            <span class="badge badge-primary">Software Development</span>
+            <span class="badge badge-primary">User Interface Design</span>
+            <span class="badge badge-primary">Usability Engineering</span>
+            <span class="badge badge-primary">Data Structures and Algorithms</span>
+            <span class="badge badge-primary">User Interaction</span>
+            <span class="badge badge-primary">Database Systems</span>
+            <span class="badge badge-primary">IT Security</span>
           </div>
         </div>
 
