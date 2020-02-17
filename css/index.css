@@ -9603,11 +9603,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.team .team-image {
-  border-radius: 50%;
-  border: 5px solid #f7f7f7;
-}
-
 .team .team-social-media {
   color: black;
   font-size: 2rem;

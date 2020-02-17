@@ -25,12 +25,30 @@
             <button type="button" class="btn button-item btn-primary mr-2" data-filter="*">All</button>
             <button type="button" class="btn button-item btn-primary mr-2" data-filter=".web">Web</button>
             <button type="button" class="btn button-item btn-primary mr-2" data-filter=".mobile">Mobile</button>
-            <button type="button" class="btn button-item btn-primary" data-filter=".ux">UX</button>
+            <button type="button" class="btn button-item btn-primary" data-filter=".ux">Design</button>
           </div>
         </div>
       </div>
       <div class="container-fluid no-gutter">
         <div id="posts" class="row">
+        <div class="item web mobile col-12 col-sm-6 col-md-4">
+            <div id="portfolio_hamilton" class="card mb-4" data-toggle="modal" data-target="#hamiltonModal">
+              <img class="card-img-top" src="images/worksamples/hamiltourui.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Hamilton Tour</h5>
+                <h6 class="card-subtitle text-muted  mb-2">Web-based Mobile App</h6>
+              </div>
+            </div>
+          </div>
+          <div class="item web mobile col-12 col-sm-6 col-md-4">
+            <div class="card mb-4" data-toggle="modal" data-target="#roclaModal">
+              <img class="card-img-top" src="images/worksamples/roclaui.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Truck Driving Assistant</h5>
+                <h6 class="card-subtitle text-muted  mb-2">Web-based Tablet App</h6>
+              </div>
+            </div>
+          </div>
           <div class="item mobile ux col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#foreignBuddyModal">
               <img class="card-img-top" src="images/worksamples/LanguageSharing_thumbnail" alt="Card image cap">
@@ -49,7 +67,7 @@
               </div>
             </div>
           </div>
-          <div class="item web col-12 col-sm-6 col-md-4">
+          <div class="item web ux col-12 col-sm-6 col-md-4">
             <div id="portfolio_nickileach" class="card mb-4" data-toggle="modal" data-target="#nickiModal">
               <img class="card-img-top" src="images/worksamples/nickileachfoundation.png" alt="Card image cap">
               <div class="card-body text-center">
@@ -58,7 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="item ux col-12 col-sm-6 col-md-4">
+          <div class="item research col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#usabilityModal">
               <img class="card-img-top" src="images/worksamples/usabilityproject.png" alt="Card image cap">
               <div class="card-body text-center">
@@ -94,15 +112,6 @@
               </div>
             </div>
           </div>
-          <div class="item web col-12 col-sm-6 col-md-4">
-            <div class="card mb-4" data-toggle="modal" data-target="#bunnyModal">
-              <img class="card-img-top" src="images/worksamples/bunnyleach.png" alt="Card image cap">
-              <div class="card-body text-center">
-                <h5 class="card-title">Bunny Leach</h5>
-                <h6 class="card-subtitle text-muted  mb-2">Website for Book Author</h6>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -113,6 +122,39 @@
   <?php require("./parts/footer.php");?>
   </div>
   <!-- Modals for Portfolio -->
+  <div id="hamiltonModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close col-1 offset-11" data-dismiss="modal">&times;</button>
+        <h5 class="text-center">Hamilton Tour App</h5>
+        <img class="img-fluid" src="images/worksamples/hamilton.png">
+        <div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>The mobile app "Hamiltour" innovates the experience of a Hamilton Walking Tour. The app nagivates a user through Lower Manhattan and educates the user about different landmarks that are connected to Hamilton.</p>
+            </li>
+            <li class="list-group-item">
+              <p>I built the app with TypeScript, CSS, and React Native. It runs on both, iOS and Android. Redux is used as a state management library. The app will be released around June 2020.</p>
+            </li>
+            <!--<li class="list-group-item">
+              <i class="fa fa-globe mr-2"></i>
+              <a href="" target="_blank">Project
+                Page - Media University, Stuttgart</a>
+            </li>-->
+            <li class="list-group-item">
+              <i class="fas fa-wrench mr-2"></i>
+              <span class="badge badge-primary">React</span>
+              <span class="badge badge-primary">React Native</span>
+              <span class="badge badge-primary">Location Service</span>
+              <span class="badge badge-primary">Redux</span>
+              <span class="badge badge-primary">JavaScript</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="foreignBuddyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -123,10 +165,10 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>The mobile app "ForeignBuddy" helps students to find suitable language partnerships in a defined area. User inputs such as a desired language a user wants to learn, native language, age, gender, location and interests are used to find a perfect match.</p>
+              <p>The mobile app "ForeignBuddy" helps students to find suitable language partnerships in a defined area. User inputs such as a desired language a user wants to learn, native language, age, gender, location, and interests are used to find a perfect match.</p>
             </li>
             <li class="list-group-item">
-              <p>We designed the user interface with Proto.io and developed the application native for Android in Java and for iOS in Swift. For the Backend Firebase, a back-end service by Google was used.</p>
+              <p>I designed the user interface with Proto.io and developed the application native for Android in Java and for iOS in Swift. For the Backend Firebase, a back-end service by Google is used.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-user mr-2"></i>Marlene Hasslinger, Marc Julian Fleck</li>
@@ -145,6 +187,41 @@
               <span class="badge badge-primary">Cloud Functions</span>
               <span class="badge badge-primary">Real Time NoSQL-Datenbank</span>
               <span class="badge badge-primary">UI / UX Design</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="roclaModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close col-1 offset-11" data-dismiss="modal">&times;</button>
+        <h5 class="text-center">Warehouse Truck Driving Assistant</h5>
+        <img class="img-fluid" src="images/worksamples/roclaUiFull.png">
+        <div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>The application will assist warehouse truck drivers with identification, task management, time tracking, and collision detection. The goal is to reduce collisions in warehouses, and to prepare warehouses for "mixed traffic" (including human-driven and automated vehicles).</p>
+            </li>
+            <li class="list-group-item">
+              <p>I built the front-end in Ionic, HTML, CSS, TypeScript, and Angular. The back-end is provided through Firebase.</p>
+            </li>
+            <!--<li class="list-group-item">
+              <i class="fa fa-globe mr-2"></i>
+              <a href="https://www.hdm-stuttgart.de/stage/projekt_detail/projekt_details?projekt_ID=2432" target="_blank">Project
+                Page - Media University, Stuttgart</a>
+            </li>-->
+            <li class="list-group-item">
+              <i class="fas fa-wrench mr-2"></i>
+              <span class="badge badge-primary">Ionic</span>
+              <span class="badge badge-primary">Angular</span>
+              <span class="badge badge-primary">TypeScript</span>
+              <span class="badge badge-primary">JavaScript</span>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
+              <span class="badge badge-primary">Firebase</span>
             </li>
           </ul>
         </div>
@@ -186,7 +263,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>I set up a WordPress website for the Nicki Leach Foundation (see link below) that supports young adults with cancer financially to archieve their education goals and allows donors to get involved. Additionally, I designed a logo and created marketing materials (business cards, flyers, and bookmarks) with Adobe Photoshop for the foundations appearing at national medical conventions such as the <a href="https://meetings.asco.org/am/save-date">ASCO Annual Meeting.</a></p>
+              <p>I built a WordPress website for the Nicki Leach Foundation (see link below) following SEO best-practices. The NLF supports young adults with cancer through endowed grants to help archieve educational goals. I designed a logo and create promotional materials (business cards, flyers, and bookmarks) with Adobe Photoshop for the foundations appearing at national medical conventions, such as the <a href="https://meetings.asco.org/am/save-date">ASCO Annual Meeting</a> and <a href="https://www.nccn.org/professionals/meetings/annual_conference.aspx">NCCN Conference</a>.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -196,6 +273,9 @@
               <i class="fas fa-wrench mr-2"></i>
               <span class="badge badge-primary">WordPress</span>
               <span class="badge badge-primary">Adobe Photoshop</span>
+              <span class="badge badge-primary">Graphic Design</span>
+              <span class="badge badge-primary">SEO</span>
+              <span class="badge badge-primary">PHP</span>
             </li>
           </ul>
         </div>
@@ -323,7 +403,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>I've created a logo and developed website in WordPress for a guitar luthier to create a show room for unique guitar pieces and help increase guitar sales.</p>
+              <p>I created a logo and developed website in WordPress following SEO best-practices for a guitar luthier to create a show room for unique guitar pieces and help increase guitar sales.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -333,6 +413,9 @@
               <i class="fas fa-wrench mr-2"></i>
               <span class="badge badge-primary">WordPress</span>
               <span class="badge badge-primary">Web Design</span>
+              <span class="badge badge-primary">PHP</span>
+              <span class="badge badge-primary">SEO</span>
+              <span class="badge badge-primary">Graphic Design</span>
             </li>
           </ul>
         </div>
