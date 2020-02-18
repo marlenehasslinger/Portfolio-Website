@@ -132,10 +132,10 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>The mobile app "Hamiltour" innovates the experience of a Hamilton Walking Tour. The app nagivates a user through Lower Manhattan and educates the user about different landmarks that are connected to Hamilton.</p>
+              <p>The mobile app Hamiltour innovates the experience of visiting a Hamilton Walking Tour in Lower Manhattan. The app nagivates a user through the city and informs about different landmarks that are connected to Hamilton.</p>
             </li>
             <li class="list-group-item">
-              <p>I built the app with TypeScript, CSS, and React Native. It runs on both, iOS and Android. Redux is used as a state management library. The app will be released around June 2020.</p>
+              <p>I built the app with TypeScript, CSS, and React Native. It runs on both, iOS and Android. Redux is used as a state management library. <b>The app will be released around June 2020</b>.</p>
             </li>
             <!--<li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -165,10 +165,10 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>The mobile app "ForeignBuddy" helps students to find suitable language partnerships in a defined area. User inputs such as a desired language a user wants to learn, native language, age, gender, location, and interests are used to find a perfect match.</p>
+              <p>The mobile app ForeignBuddy helps students to learn languages by finding matching language exchange partnership. Various user inputs, such as a desired language a user wants to learn, native language, age, location, and interests, are considered to find a perfect match.</p>
             </li>
             <li class="list-group-item">
-              <p>I designed the user interface with Proto.io and developed the application native for Android in Java and for iOS in Swift. For the Backend Firebase, a back-end service by Google is used.</p>
+              <p>I designed the user interface with Proto.io and developed the application native in Java for Android and in Swift for iOS. The back-end is built with Firebase.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-user mr-2"></i>Marlene Hasslinger, Marc Julian Fleck</li>
@@ -206,7 +206,7 @@
               <p>The application will assist warehouse truck drivers with identification, task management, time tracking, and collision detection. The goal is to reduce collisions in warehouses, and to prepare warehouses for "mixed traffic" (including human-driven and automated vehicles).</p>
             </li>
             <li class="list-group-item">
-              <p>I built the front-end in Ionic, HTML, CSS, TypeScript, and Angular. The back-end is provided through Firebase.</p>
+              <p>I built the front-end in Ionic, HTML, CSS, TypeScript, and Angular. The back-end built with Firebase.</p>
             </li>
             <!--<li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -240,7 +240,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>Two applications, Screenium and Camtasia, that are commonly used for screen capturing were compared in this study. Five use cases were tested on sixteen students. The results were evaluated under consideration of the aspects efficiency and effectivity. Also, our test users filled out a System Usability Scale (SUS) form to provide us with a better idea about how the users felt while going through the different use cases. For more information watch our information video.</p>
+              <p>Two applications, Screenium and Camtasia, that are commonly used for screen capturing were compared in this study. Five use cases were tested on sixteen students. The results were evaluated under consideration of efficiency and effectivity. To understand and analyze how the users felt while going through the use cases, a System Usability Scale (SUS) form was filled out at the end of each testing session. For more information watch our information video.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-user mr-2"></i>Marlene Hasslinger, Marc Julian Fleck</li>
@@ -263,7 +263,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>I built a WordPress website for the Nicki Leach Foundation (see link below) following SEO best-practices. The NLF supports young adults with cancer through endowed grants to help archieve educational goals. I designed a logo and create promotional materials (business cards, flyers, and bookmarks) with Adobe Photoshop for the foundations appearing at national medical conventions, such as the <a href="https://meetings.asco.org/am/save-date">ASCO Annual Meeting</a> and <a href="https://www.nccn.org/professionals/meetings/annual_conference.aspx">NCCN Conference</a>.</p>
+              <p>I built a website in WordPress for the Nicki Leach Foundation (see link below), following SEO best-practices. The NLF supports young adults with cancer through endowed grants to help archieve educational goals. I designed a logo and create promotional materials (business cards, flyers, and bookmarks) with Adobe Photoshop for the foundation's appearing at national medical conventions, such as the <a href="https://meetings.asco.org/am/save-date">ASCO Annual Meeting</a> and the <a href="https://www.nccn.org/professionals/meetings/annual_conference.aspx">NCCN Conference</a>.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -274,6 +274,8 @@
               <span class="badge badge-primary">WordPress</span>
               <span class="badge badge-primary">Adobe Photoshop</span>
               <span class="badge badge-primary">Graphic Design</span>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
               <span class="badge badge-primary">SEO</span>
               <span class="badge badge-primary">PHP</span>
             </li>
@@ -320,10 +322,10 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-            <p>This project was a part of my participation in the <a href="https://until.un.org/reboottheearth" target="_blank">Reboot the Earth Hackathon</a> in 2019 organized by the United Nations, SAP and Deloitte. The goal of the event was to improve upon or build a new software program that addresses the current climate crisis.</p>
-            <p>LAPAR (Learn about PLASTIC and Reduce Recycle) is a crowdsourced cross platform which helps educate people and learn about different types of plastic, how the earth is impacted, how to reduce its use and recycle properly. It also show a users footprint and recommendations from people around the world.</p>
+            <p>This project was a part of my participation in the <a href="https://until.un.org/reboottheearth" target="_blank">Reboot the Earth Hackathon</a> in 2019 that was organized by the United Nations, SAP, and Deloitte. The goal of the event was to improve upon or build a new software program that addresses the current climate crisis.</p>
+            <p>LAPAR (Learn about PLASTIC and Reduce Recycle) is a crowdsourced cross platform that helps users to learn about different types of plastic, how the earth is impacted through them, how to reduce its use, and how to recycle properly.</p>
             <li class="list-group-item">
-            <p>I was responsible for creating a clickable prototype for the mobile application with Proto.io. Click on the Link below to check it out. </p>
+            <p>I was responsible for creating a UI prototype for the mobile application with Proto.io. Click on the Link below to check it out. </p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -351,7 +353,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>I helped developing a website in WordPress for the BID in Chinatown to help attract tourists and promote information about the local district.</p>
+              <p>I developed a website in WordPress for the BID in Chinatown to help attract tourists and promote information about the local district.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -361,32 +363,7 @@
               <i class="fas fa-wrench mr-2"></i>
               <span class="badge badge-primary">WordPress</span>
               <span class="badge badge-primary">Web Design</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="bunnyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <button type="button" class="close col-1 offset-11" data-dismiss="modal">&times;</button>
-        <h5 class="text-center">Book Author Website</h5>
-        <img class="img-fluid col-sm-6 mx-auto" src="images/worksamples/bunnyleach.png">
-        <div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <p>I've created a website in WordPress for a book author to promote new book releases and inform readers about upcoming book signing events.</p>
-            </li>
-            <li class="list-group-item">
-              <i class="fa fa-globe mr-2"></i>
-              <a href="https://bunnyleach.com/" target="_blank">BunnyLeach.com</a>
-            </li>
-            <li class="list-group-item">
-              <i class="fas fa-wrench mr-2"></i>
-              <span class="badge badge-primary">WordPress</span>
-              <span class="badge badge-primary">Web Design</span>
+              <span class="badge badge-primary">PHP</span>
             </li>
           </ul>
         </div>
@@ -403,7 +380,7 @@
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>I created a logo and developed website in WordPress following SEO best-practices for a guitar luthier to create a show room for unique guitar pieces and help increase guitar sales.</p>
+              <p>I created a logo and developed a website in WordPress, following SEO best-practices, to create a show room for unique guitar pieces and help increase guitar sales.</p>
             </li>
             <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
@@ -414,6 +391,8 @@
               <span class="badge badge-primary">WordPress</span>
               <span class="badge badge-primary">Web Design</span>
               <span class="badge badge-primary">PHP</span>
+              <span class="badge badge-primary">HTML</span>
+              <span class="badge badge-primary">CSS</span>
               <span class="badge badge-primary">SEO</span>
               <span class="badge badge-primary">Graphic Design</span>
             </li>
