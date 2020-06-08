@@ -199,7 +199,9 @@
       <div class="modal-content">
         <button type="button" class="close col-1 offset-11" data-dismiss="modal">&times;</button>
         <h5 class="text-center">Warehouse Truck Driving Assistant</h5>
-        <img class="img-fluid" src="images/worksamples/roclaUiFull.png">
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i-sB11x_YYU" allowfullscreen></iframe>
+        </div>
         <div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -208,11 +210,10 @@
             <li class="list-group-item">
               <p>I built the front-end in Ionic, HTML, CSS, TypeScript, and Angular. The back-end built with Firebase.</p>
             </li>
-            <!--<li class="list-group-item">
+            <li class="list-group-item">
               <i class="fa fa-globe mr-2"></i>
-              <a href="https://www.hdm-stuttgart.de/stage/projekt_detail/projekt_details?projekt_ID=2432" target="_blank">Project
-                Page - Media University, Stuttgart</a>
-            </li>-->
+              <a href="https://github.com/marlenehasslinger/warehouseApp" target="_blank">See code</a>
+            </li>
             <li class="list-group-item">
               <i class="fas fa-wrench mr-2"></i>
               <span class="badge badge-primary">Ionic</span>
