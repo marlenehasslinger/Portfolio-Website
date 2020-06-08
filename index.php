@@ -33,7 +33,7 @@
         <div id="posts" class="row">
         <div class="item web mobile col-12 col-sm-6 col-md-4">
             <div id="portfolio_hamilton" class="card mb-4" data-toggle="modal" data-target="#hamiltonModal">
-              <img class="card-img-top" src="images/worksamples/hamiltourui.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/hamiltourui.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Hamilton Tour</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Web-based Mobile App</h6>
@@ -42,7 +42,7 @@
           </div>
           <div class="item web mobile col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#roclaModal">
-              <img class="card-img-top" src="images/worksamples/roclaui.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/roclaui.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Truck Driving Assistant</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Web-based Tablet App</h6>
@@ -51,7 +51,7 @@
           </div>
           <div class="item mobile ux col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#foreignBuddyModal">
-              <img class="card-img-top" src="images/worksamples/LanguageSharing_thumbnail" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/LanguageSharing_thumbnail" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Language Buddy</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Android & iOS App</h6>
@@ -60,7 +60,7 @@
           </div>
           <div class="item web col-12 col-sm-6 col-md-4">
             <div id="portfolio_hero" class="card mb-4" data-toggle="modal" data-target="#thesisModal">
-              <img class="card-img-top" src="images/worksamples/bachelorthesis.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/bachelorthesis.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Comparison of Angular, React & Vue</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Bachelor Thesis</h6>
@@ -69,7 +69,7 @@
           </div>
           <div class="item web ux col-12 col-sm-6 col-md-4">
             <div id="portfolio_nickileach" class="card mb-4" data-toggle="modal" data-target="#nickiModal">
-              <img class="card-img-top" src="images/worksamples/nickileachfoundation.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/nickileachfoundation.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Nicki Leach Foundation</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Website for Cancer Foundation</h6>
@@ -78,7 +78,7 @@
           </div>
           <div class="item research col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#usabilityModal">
-              <img class="card-img-top" src="images/worksamples/usabilityproject.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/usabilityproject.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Usability Study</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Comparison of two screen capture applications</h6>
@@ -87,7 +87,7 @@
           </div>
           <div class="item web col-12 col-sm-6 col-md-4">
             <div id="portfolio_chinatown" class="card mb-4" data-toggle="modal" data-target="#chinaTownModal">
-              <img class="card-img-top" src="images/worksamples/Chinatown.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/Chinatown.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Chinatown BID</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Website for Chinatown (NYC) BID</h6>
@@ -96,7 +96,7 @@
           </div>
           <div class="item mobile ux col-12 col-sm-6 col-md-4">
             <div class="card mb-4" data-toggle="modal" data-target="#laparModal">
-              <img class="card-img-top" src="images/worksamples/laparApp.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/laparApp.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Lapar</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Mobile App Prototype</h6>
@@ -105,7 +105,7 @@
           </div>
           <div class="item web col-12 col-sm-6 col-md-4">
             <div id="portfolio_prism" class="card mb-4" data-toggle="modal" data-target="#prismGuitarModals">
-              <img class="card-img-top" src="images/worksamples/prismguitars.png" alt="Card image cap">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/prismguitars.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Prism Guitars</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Website for Guitar Luthier</h6>
