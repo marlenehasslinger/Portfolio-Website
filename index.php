@@ -51,21 +51,21 @@
               </div>
             </div>
           </div>
-          <div class="item mobile ux col-12 col-sm-6 col-md-4">
-            <div class="card mb-4" data-toggle="modal" data-target="#foreignBuddyModal">
-              <img class="card-img-top" width="300" height="300" src="images/worksamples/LanguageSharing_thumbnail" alt="Card image cap">
-              <div class="card-body text-center">
-                <h5 class="card-title">Language Buddy</h5>
-                <h6 class="card-subtitle text-muted  mb-2">Android & iOS App</h6>
-              </div>
-            </div>
-          </div>
           <div class="item web col-12 col-sm-6 col-md-4">
             <div id="portfolio_hero" class="card mb-4" data-toggle="modal" data-target="#thesisModal">
               <img class="card-img-top" width="300" height="300" src="images/worksamples/bachelorthesis.png" alt="Card image cap">
               <div class="card-body text-center">
                 <h5 class="card-title">Comparison of Angular, React & Vue</h5>
                 <h6 class="card-subtitle text-muted  mb-2">Bachelor Thesis</h6>
+              </div>
+            </div>
+          </div>
+          <div class="item mobile ux col-12 col-sm-6 col-md-4">
+            <div class="card mb-4" data-toggle="modal" data-target="#foreignBuddyModal">
+              <img class="card-img-top" width="300" height="300" src="images/worksamples/LanguageSharing_thumbnail" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Language Buddy</h5>
+                <h6 class="card-subtitle text-muted  mb-2">Android & iOS App</h6>
               </div>
             </div>
           </div>
