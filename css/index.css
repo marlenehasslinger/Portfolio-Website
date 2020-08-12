@@ -9753,6 +9753,12 @@ a.text-dark:hover, a.text-dark:focus {
   border-top: 2px solid #f7f7f7;
 }
 
+.portfolio .card:hover {
+  border: 1px solid #32a890;
+  -webkit-box-shadow: 1px 1px 4px grey;
+          box-shadow: 1px 1px 4px grey;
+}
+
 .contact {
   color: white;
   background-color: #222222;
@@ -9840,7 +9846,7 @@ body {
 }
 
 .btn-primary {
-  background-color: #57656f;
+  background-color: #32a890;
   color: white;
   border-color: transparent;
 }

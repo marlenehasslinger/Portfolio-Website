@@ -4,6 +4,34 @@
       <!-- <p class="text-center text-muted font-italic mb-4">What I've done the past years</p> -->
       <h4 class="h5 text-center mb-4">Professional Experience</h4>
       <div class="resume-list">
+
+      <div class="row mb-4">
+          <div class="col-6 offset-3 col-md-2 offset-sm-0 offset-md-5 col-sm-3 order-1 order-md-1">
+              <img class="img-fluid mb-2 resume-image mt-3 mt-sm-0" src="images/resume/liquidnet.jpeg"
+                alt="Onwerk Logo" />
+          </div>
+          <div class="col-12 col-sm-9 col-md-5 order-2 order-sm-1 order-md-2">
+            <p class="text-center text-sm-left mb-1">May '20 - August '20</p>
+            <h5 class="text-center text-sm-left"><b>Liquidnet</b></h5>
+            <p class="text-center text-sm-left mb-1">New York, NY</p>
+            <p class="text-center text-sm-left text-md-left text-muted">Full-stack Developer Intern</p>
+            <ul>
+              <li>Built, optimized, and documented reusable React components for financial software solutions in JavaScript, React, React Hooks, Redux, Storybook, and SCSS, thereby improving the modularity and scalability of internal codebases</li>
+              <li>Implemented an internal dashboard using JavaScript, React, Redux, and SCSS, thereby allowing commission management admins to overview a variety of data through customizable widgets and data visualizations</li>
+              <li>Led an intern team of five in improving internal bottlenecks with data-driven solutions and presented directly to CEO and CTO</li>
+            </ul>
+            <p>
+              <span class="badge badge-primary">JavaScript ES6</span>
+              <span class="badge badge-primary">React</span>
+              <span class="badge badge-primary">React Hooks</span>
+              <span class="badge badge-primary">Redux</span>
+              <span class="badge badge-primary">Storybook</span>
+              <span class="badge badge-primary">SCSS</span>
+              <span class="badge badge-primary">Java Spring</span>
+            </p>
+          </div>
+        </div>
+
       <div class="row mb-4">
           <div class="col-6 offset-3 col-md-2 offset-sm-0 col-sm-3 order-1 order-md-2">
             <img class="img-fluid mb-2 resume-image" src="images/resume/nycdf.png"
@@ -15,9 +43,8 @@
             <p class="text-center text-sm-left mb-1">New York, NY</p>
             <p class="text-center text-muted text-sm-left">Full-stack Developer</p>
             <ul>
-              <li>Develop a mobile web application using React Native, JSX, and Redux to allow a museum in Lower Manhattan to innovate the experience of visiting its attractions by employing location tracking, thereby increasing the popularity</li>
-              <li>Lead a development team of four students in a collaboration with a Finland-based team and the warehouse truck manufacturer Rocla in a product development project to plan and design a tablet web application that will assist warehouse truck drivers with identification, task management, time tracking, and collision detection</li>
-              <li>Implement the tablet application using Angular, Ionic, HTML, CSS, TypeScript, and a Firebase database to collect data, thereby enabling managers to optimize processes and to prevent collisions</li>
+              <li>Developed a mobile web application using React Native, JSX, and Redux, enabling a museum in lower Manhattan to create an innovative customer experience through location tracking, thereby increasing visitor foot traffic </li>
+              <li>Led a development team of four students in collaboration with Finnish warehouse truck manufacturer, Rocla, implementing a tablet web application using Angular, Ionic, HTML, CSS, TypeScript, and a Firebase database to assist truck drivers with identification, task management, time tracking, and collision detection</li>
             </ul>
             <p>
               <span class="badge badge-primary">HTML</span>
@@ -46,8 +73,8 @@
             <p class="text-center text-sm-left mb-1">Mannheim (Germany)</p>
             <p class="text-center text-sm-left text-md-left text-muted">Front-end Developer Intern</p>
             <ul>
-              <li>Analyzed existing software and identified user requirements to iteratively design a user-friendly UI prototype for a web-based time tracking application by conducting user testing to ensure that the final product will be intuitive</li>
-              <li>Developed a responsive front-end for the web application using HTML, CSS, JavaScript, Bootstrap, SQL, JSON, and Angular to create a time tracking solution that is platform independent and easy to use</li>
+              <li>Analyzed existing software and identified user requirements to iteratively design a user-friendly UI prototype for a web-based time tracking application</li>
+              <li>Developed a responsive front-end for the web application using HTML, CSS, JavaScript, Angular 4, Bootstrap, SQL, and JSON to create a time tracking assistant that is platform independent and easy to use</li>
             </ul>
             <p>
               <span class="badge badge-primary">Balsamiq</span>
@@ -72,10 +99,8 @@
             <p class="text-center text-sm-left mb-1">Munich (Germany)</p>
             <p class="text-center text-muted text-sm-left">Technical Business Analyst Intern</p>
             <ul>
-              <li>Collaborated with an international and agile software development team of five to implement a web front-end using HTML, CSS, and JavaScript to provide a supply chain management system for a Munich based automotive company</li>
-              <li>Documented requirements in user stories to close the gap between what the client needs and what is implemented
-
-</li>
+              <li>Collaborated with an international and agile software development team of five to implement a web front-end using HTML, CSS, and JavaScript to provide a supply chain management system for a Munich-based automotive company</li>
+              <li>Documented requirements in user stories to close the gap between client needs and implementation</li>
             </ul>
               <span class="badge badge-primary">Agile Software Development</span>
               <span class="badge badge-primary">Scrum</span>

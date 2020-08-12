@@ -11,11 +11,11 @@
                 <h5 class="text-center text-sm-left ml-lg-4">Awards</h5>
                 <div class="d-flex align-items-center">
                     <ul>
-                        <li><p>3rd Runner Up at <a href="https://until.un.org/reboottheearth" target="_blank">Reboot the Earth Hackathon</a> (organized by SAP, UN and Deloitte)</p></li>
                         <li><p>Graduate Research Assistantship</p></li>
                         <li><p>Fulbright Scholarship</p></li>
                         <li><p>Baden-Württemberg Scholarship</p></li>
                         <li><p>DAAD Scholarship "PROMOS"</p></li>
+                        <li><p>3rd Runner Up at <a href="https://until.un.org/reboottheearth" target="_blank">Reboot the Earth Hackathon</a> (organized by SAP, UN and Deloitte)</p></li>
                     </ul>
                 </div>
             </div>
